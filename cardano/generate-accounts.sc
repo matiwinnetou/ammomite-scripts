@@ -1,12 +1,8 @@
 import $ivy.`com.bloxbean.cardano:cardano-client-lib:0.5.0-alpha.4`
 
 import com.bloxbean.cardano.client.crypto._;
-import com.bloxbean.cardano.client.address._;
 import com.bloxbean.cardano.client.account._;
 import com.bloxbean.cardano.client.common.model._;
-import com.bloxbean.cardano.client.crypto.bip32.key.HdPublicKey;
-
-import com.bloxbean.cardano.client.crypto.KeyGenUtil;
 
 // amm cardano/generate-accounts.sc --isMainnet true --numberAccounts 100
 
